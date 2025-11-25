@@ -1,0 +1,26 @@
+@font-face {
+    font-family: 'Micro5';
+    src: url(../font/Micro5-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Tiny5';
+    src: url(../font/Tiny5-Regular.ttf);
+}
+
+body {
+    background-color: #101023;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 90vh;
+}
+
+canvas {
+    background-color: rgb(108, 105, 101);
+    opacity: 1;
+}
